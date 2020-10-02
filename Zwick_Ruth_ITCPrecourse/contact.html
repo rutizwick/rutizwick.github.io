@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="./style.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul>
+      <li> <a href="/">Home</a> </li>
+      <li> <a href="about.html">About</a> </li>
+      <li> <a href="contact.html">Contact</a> </li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="page-wrapper content">
+      <div class="cardabout">
+        <img class="contact-icon" id="contact-icon" src="contact.png" alt="envelope icon" class="profile-image" />
+        <h1 id="contact">
+          Contact Me
+        </h1>
+        <form action="/action_page.php">
+          <legend>Your Contact Information</legend>
+        
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" class="required" required>
+         
+          <label for="lname"> Last Name:</label>
+          <input type="text" id="lname" name="lname" class="lname" >
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email required" name="email" class="required" required>
+          
+          <label for="comment">Comments: </label>
+          <textarea id="comment required" name="comment" class="required" required></textarea>
+         
+          <label for="doing">What are you doing on my page?</label>
+          <select id="doing required" name="doing" class="required" required>
+            <option selected value=0>Select one...</option>
+            <option value="I am an employee of ITC, I need to check your work">I am an employee of ITC, I need to
+              check your work</option>
+            <option value="I am Ruti, I am checking if this thing works">I am Ruti, I am checking if this thing
+              works</option>
+            <option value="Who are you? Where am I?">Who are you? Where am I?</option>
+          </select>
+          
+          <button type="button" id="submitbutton" disabled="" class="submit btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+
+<footer>
+  <ul id="iconlist" class="iconlist">
+    <li> <a target="_blank" href="https://www.linkedin.com/in/ruti-zwick/"><i class="fab fa-linkedin"> </i></a>
+    </li>
+    <li> <a target="_blank" href="https://github.com/rutizwick"><i class="fab fa-github-square"></i></a></li>
+    <li> <a target="_blank" href="https://stackexchange.com/users/19419154/ruti"><i
+          class="fab fa-stack-overflow"></i></a></li>
+  </ul>
+  <ul id="lang-footer" class="lang-footer">
+    <li class="lang-footer">This page was built using</li>
+  </ul>
+  <ul class="nav-foot">
+    <li> <a href="/">Home</a> </li>
+    <li> <a href="about.html">About</a> </li>
+    <li> <a href="contact.html">Contact</a> </li>
+  </ul>
+</footer>
+
+<script src="contact.js"></script>
+<script src="https://kit.fontawesome.com/4e835881e3.js" crossorigin="anonymous"></script>
